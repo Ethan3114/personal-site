@@ -1,0 +1,27 @@
+{
+  "url": "https://bysagar.vercel.app/",
+  "measured_on": "2026-11-02",
+  "viewport": { "width": 1440, "height": 1000, "dpr": 1 },
+  "title": {
+    "font": "Georama",
+    "font_size": 128,
+    "weight_range": [400, 900],
+    "weight_function": "min + (max-min) * exp(-(distance*distance)/20000)",
+    "transition_seconds": 0.25
+  },
+  "dock": {
+    "items": 6,
+    "active_items": 5,
+    "focused_transform": "matrix(1.25, 0, 0, 1.25, 0, -15)",
+    "adjacent_transform": "matrix(1.055, 0, 0, 1.055, 0, -3.3025)"
+  },
+  "window": {
+    "drag_before": [72, 40, 1080, 840],
+    "drag_after": [112, 70, 1080, 840],
+    "close_removed_from_dom": true,
+    "entrance_seconds": 0.4,
+    "entrance_ease": "power3.out"
+  },
+  "mobile": { "viewport": [390, 844], "window_rect": [0, 0, 390, 748] },
+  "pixel_comparison": "未执行截图与像素比对"
+}
